@@ -48,92 +48,112 @@
         <p class="folderTxt"><span>FOLDER</span><Span><i class="fa-solid fa-plus"></i></Span></p>
 
         <div class="folder">
-          <ul>
-            <button class="folderHead">
-              <p><span>Products</span><Span><i class="fa-solid fa-caret-down"></i></Span></p>
-            </button>
-            <div class="space"><br></div>
+
+          <!-- dropDown -->
+
+          <button id="headBtn">Products <i class="fa fa-caret-down"></i></button>
+
+          <ul id="btnElement" style="display: block;">
             <li><a href="#">Roadmap</a></li>
             <li><a href="#">Feedback</a></li>
             <li><a href="#">Performance</a></li>
             <li><a href="#">Team</a></li>
             <li><a href="#">Analytics</a></li>
+
             <button class="creatTask">
               <p><i class="fa-regular fa-square-plus"></i> Add num tab</p>
             </button>
           </ul>
 
-          <ul>
-            <button class="folderHead">
-              <p><span>Sales</span><Span><i class="fa-solid fa-caret-down"></i></Span></p>
-            </button>
-            <!-- <div class="space"><br></div>
+          <!-- 1 dropDown -->
+
+          <button id="headBtn1">Sales <i class="fa fa-caret-down"></i></button>
+
+          <ul id="btnElement1" style="display: none;">
             <li><a href="#">Roadmap</a></li>
             <li><a href="#">Feedback</a></li>
             <li><a href="#">Performance</a></li>
             <li><a href="#">Team</a></li>
             <li><a href="#">Analytics</a></li>
+
             <button class="creatTask">
-              <a href="#"><i class="fa-regular fa-square-plus"></i> Add num tab</a>
-            </button> -->
+              <p><i class="fa-regular fa-square-plus"></i> Add num tab</p>
+            </button>
           </ul>
 
-          <ul>
-            <button class="folderHead">
-              <p><span>Design</span><Span><i class="fa-solid fa-caret-down"></i></Span></p>
-            </button>
-            <!-- <div class="space"><br></div>
+
+          <!-- 2 dropDown -->
+
+          <button id="headBtn2">Design <i class="fa fa-caret-down"></i></button>
+
+          <ul id="btnElement2" style="display: none;">
             <li><a href="#">Roadmap</a></li>
             <li><a href="#">Feedback</a></li>
             <li><a href="#">Performance</a></li>
             <li><a href="#">Team</a></li>
-            <li><a href="#">Analytics</a></li> -->
+            <li><a href="#">Analytics</a></li>
+
+            <button class="creatTask">
+              <p><i class="fa-regular fa-square-plus"></i> Add num tab</p>
+            </button>
           </ul>
 
-          <ul>
-            <button class="folderHead">
-              <p><span>Office</span><Span><i class="fa-solid fa-caret-down"></i></Span></p>
-            </button>
-            <!-- <div class="space"><br></div>
+          <!-- 3 dropDown -->
+
+          <button id="headBtn3">Office <i class="fa fa-caret-down"></i></button>
+
+          <ul id="btnElement3" style="display: none;">
             <li><a href="#">Roadmap</a></li>
             <li><a href="#">Feedback</a></li>
             <li><a href="#">Performance</a></li>
             <li><a href="#">Team</a></li>
-            <li><a href="#">Analytics</a></li> -->
+            <li><a href="#">Analytics</a></li>
+
+            <button class="creatTask">
+              <p><i class="fa-regular fa-square-plus"></i> Add num tab</p>
+            </button>
           </ul>
 
-          <ul>
-            <button class="folderHead">
-              <p><span>Legal</span><Span><i class="fa-solid fa-caret-down"></i></Span></p>
-            </button>
-            <!-- <div class="space"><br></div>
+          <!-- 4 dropDown -->
+
+          <button id="headBtn4">Legal <i class="fa fa-caret-down"></i></button>
+
+          <ul id="btnElement4" style="display: none;">
             <li><a href="#">Roadmap</a></li>
             <li><a href="#">Feedback</a></li>
             <li><a href="#">Performance</a></li>
             <li><a href="#">Team</a></li>
-            <li><a href="#">Analytics</a></li> -->
+            <li><a href="#">Analytics</a></li>
+
+            <button class="creatTask">
+              <p><i class="fa-regular fa-square-plus"></i> Add num tab</p>
+            </button>
           </ul>
+
+          <!-- Footor -->
         </div>
 
-        <ul class="notice">
-          <button id="inviteTeam">
-            <li><a href="#"><i class="fa-solid fa-user-plus"></i> Invite Teammates</a></li>
-          </button>
-          <button id="help">
-            <li><a href="#"><i class="fa-regular fa-circle-question"></i> Help and First Staps</a></li>
-          </button>
-          <li>
-            <div class="billing">
-              <span>
-                <p><i class="fa-solid fa-triangle-exclamation"></i> days left on trial</p>
-              </span>
-              <span class="addBilling">
-                <button><a href="#">Add billing</a></button>
-              </span>
-            </div>
-          </li>
-        </ul>
+        <div class="status-parent">
 
+          <ul class="notice status-child">
+            <button id="inviteTeam">
+              <li><a href="#"><i class="fa-solid fa-user-plus"></i> Invite Teammates</a></li>
+            </button>
+            <button id="help">
+              <li><a href="#"><i class="fa-regular fa-circle-question"></i> Help and First Staps</a></li>
+            </button>
+            <li>
+              <div class="billing">
+
+                <p><i class="fa-solid fa-triangle-exclamation"></i> days left on trial</p>
+
+                <span class="addBilling">
+                  <button><a href="#">Add billing</a></button>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -144,16 +164,15 @@
         <div class="hedder">
           <h3>Products</h3>
           <div class="Search-box">
-            <form action="" class="Search-tab">
+            <form id="searchForm" class="Search-tab">
               <i class="fa fa-search"></i>
-              <input type="search" required class="serch" placeholder="Search...">
+              <input type="search" id="searchInput" required class="search" placeholder="Search...">
             </form>
             <div class="sideIcon">
               <i class="fa-regular fa-comments chat"></i>
               <i class="fa-solid fa-gear setting"></i>
             </div>
           </div>
-        </div>
       </header>
 
       <div class="main-container">
@@ -163,7 +182,7 @@
                 class="fa-solid fa-caret-down"></i></button></span>
           <span><button>Desk <i class="fa-solid fa-caret-down"></i></button></span>
           <span><button>Tags <i class="fa-solid fa-caret-down"></i></button></span>
-          <span><button><i class="fa-solid fa-arrow-down-wide-short"></i> Short</button></span>
+          <span><button id="sortButton"><i class="fa-solid fa-arrow-down-wide-short"></i> Short</button></span>
           <span><button><i class="fa-solid fa-filter"></i> Filter</button></span>
         </div>
         <div class="right-category">
@@ -403,7 +422,7 @@
                   <p class="time" id="canceled">No Contect</p>
                 </td>
               </tr>
-              <!-- Add more rows as needed -->
+
             </tbody>
           </table>
         </div>
