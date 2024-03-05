@@ -1,0 +1,511 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  color: #1c1b1b;
+  cursor: pointer;
+}
+
+#Delete i {
+  color: rgb(154, 31, 31);
+}
+
+#Delete {
+  color: rgb(154, 31, 31);
+}
+
+#b2c {
+  background-color: #fef7d2;
+  color: #b4ad82;
+}
+
+#b2b {
+  background-color: #f8eec0;
+  color: #b4ae81;
+}
+
+#Publising {
+  background-color: #f3def0;
+  color: #9e7b8f;
+}
+
+#Automation {
+  background-color: #f6ecfc;
+  color: #9282b5;
+}
+
+#Finence {
+  background-color: #fdf4d0;
+  color: #a39363;
+}
+
+#Marketplace {
+  background-color: #dbf5e6;
+  color: #719480;
+}
+
+#E-commerse {
+  background-color: #fcecdd;
+  color: #977f69;
+}
+
+#today {
+  background-color: #dbf5e6;
+  color: #719480;
+}
+#tommorow {
+  background-color: #d8f4f8;
+  color: #7198a6;
+}
+
+#canceled {
+  background-color: #f8e5e7;
+  color: #a9878d;
+}
+
+.Next-Month {
+  background-color: #f2f3f5;
+  color: #adadad;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 275px;
+  height: 100%;
+  padding-left: 22px;
+  margin: 5px;
+  border: #f4f5f7 solid 4px;
+  border-radius: 12px;
+}
+
+#Profile {
+  display: flex;
+  /* background-color: #555; */
+  width: 100%;
+  padding: 10px;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+.logo {
+  height: 42px;
+  width: 42px;
+  float: left;
+  margin-top: 11px;
+}
+
+.user-logo {
+  height: 35px;
+  width: 35px;
+  margin-left: 60px;
+  float: right;
+  margin-top: 7px;
+}
+
+#profile p {
+  margin-left: 50px;
+}
+
+.sideHad {
+  padding: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+.sideSubHad {
+  padding: 0px;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.side-content {
+  padding: 4px 10px 0 13px;
+  font-size: 13px;
+  font-weight: 550;
+  float: left;
+}
+
+.side-content button {
+  background-color: #f4f5f7;
+  border-radius: 6px;
+  margin: 1px 0;
+  padding: 9px 0 9px 9px;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  height: 33px;
+  text-align: left;
+  font-weight: 550;
+  font-size: 13px;
+}
+
+.side-content .creatTask {
+  background-color: #ffffff;
+  border: #f1f3f8 solid 2px;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  height: 37px;
+}
+
+.side-content .creatTask p {
+  display: inline;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.616);
+}
+
+.Team {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.folderTxt {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.616);
+  font-weight: 600;
+}
+
+.fa-plus {
+  float: right;
+  margin-right: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.folder button p {
+  display: inline;
+}
+
+.fa-caret-down {
+  margin-right: 12px;
+  float: right;
+}
+
+.space {
+  line-height: 100%;
+}
+
+.folder .creatTask {
+  border: none;
+  margin-top: 2px;
+  margin-left: 8px;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .folder ul li {
+  margin-left: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.notice #inviteTeam {
+  margin-top: 25px;
+}
+.billing {
+  background: #f4f5f7;
+  border: #000000 solid 2px;
+  border-radius: 6px;
+  height: 25px;
+  padding: 10px;
+}
+.billing p {
+  display: inline;
+}
+
+.billing button {
+  background: black;
+  width: 100%;
+  padding: 9px;
+  margin: 0;
+  /* position: absolute; */
+}
+
+.billing .addBilling {
+  float: right;
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.billing .addBilling a {
+  color: #f1f3f8;
+  font-size: 10px;
+}
+
+.sidebar ul li a:hover {
+  color: #555;
+}
+
+/* Main content */
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.hedder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Search-box {
+  margin-top: 18px;
+  display: flex;
+}
+.fa-search {
+  color: #787878;
+}
+
+.chat,
+.setting {
+  justify-content: space-between;
+  border: 2px solid #f4f5f7;
+  padding: 4px;
+  border-radius: 4px;
+  height: 21px;
+  width: auto;
+  padding-top: 10px;
+  color: #818181;
+}
+
+.chat {
+  margin-left: 8px;
+  margin-right: 1px;
+  font-size: 13px;
+}
+
+.setting {
+  margin-left: 1px;
+  font-size: 13px;
+  /* padding-left: 4px;
+  padding-right: 4px; */
+}
+
+.Search-tab {
+  padding: 5px;
+  border: 2px solid #f4f5f7;
+  border-radius: 4px;
+}
+
+.serch {
+  border: none;
+}
+
+.main-container {
+  /* background-color: rgb(38, 111, 175); */
+  width: 100%;
+  height: 70%;
+}
+
+.left-category,
+.right-category {
+  display: inline;
+  margin-bottom: 10px;
+  border: 1px solid #f4f5f7;
+  background: none;
+}
+
+.left-category button,
+.right-category button {
+  border: 2px solid #e8e8e8;
+  background: none;
+  padding: 5px 10px 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.right-category {
+  float: right;
+}
+
+.fa-staylinked,
+.fa-arrow-down-wide-short,
+.fa-filter,
+.fa-headse,
+.fa-cloud-arrow-up {
+  margin-right: 4px;
+}
+
+.main-container .fa-caret-down {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+th,
+td {
+  border: 2px solid #f4f5f7;
+  border-radius: 4px;
+  padding: 0px 10px 0px 10px;
+  text-align: left;
+  font-weight: 500;
+}
+
+th {
+  padding: 10px;
+}
+
+.fa-square-check {
+  font-size: 13px;
+  /* color: #777; */
+}
+
+.table-Desc {
+  width: 22%;
+}
+
+.user-Img-Container {
+  width: 17%;
+}
+
+.main-container .userImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 14px;
+  margin-left: 6px;
+}
+
+.user-Img-Container {
+  position: relative;
+  overflow: hidden;
+}
+
+.user1 {
+  left: 0px;
+  z-index: 10;
+}
+
+.user2 {
+  left: 20px;
+  z-index: 11;
+}
+
+.user3 {
+  left: 40px;
+  z-index: 12;
+}
+
+.user4 {
+  left: 60px;
+  z-index: 13;
+}
+
+.user5 {
+  left: 80px;
+  z-index: 14;
+}
+
+.user6 {
+  left: 100px;
+  z-index: 15;
+}
+
+.main-container tbody img {
+  width: 25px;
+  height: 25px;
+  border-radius: 0;
+  border-radius: 3px;
+}
+
+.brand {
+  display: flex;
+}
+
+.brand-logo,
+.brand-Name {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.brand-logo {
+  margin-top: 26px;
+}
+
+.brand-Name {
+  margin-left: 6px;
+  margin-top: 30px;
+}
+
+.table-Desc {
+  font-weight: 500;
+}
+.table-category {
+  display: flex;
+  background-color: #f1ebf4;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+  width: fit-content;
+  color: #9280b3;
+}
+
+.tag {
+  display: inline-flex;
+  background-color: #f0f0f0;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+  width: fit-content;
+  margin-bottom: 2px;
+}
+
+#tag-head {
+  max-width: 170px;
+}
+
+.table-category {
+  display: inline-flex;
+}
+
+.time {
+  background-color: #dff8ec;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+  width: fit-content;
+  color: green;
+}
+
+.botoom-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.botoom-btn button {
+  border: 2px solid #e8e8e8;
+  background: none;
+  padding: 6px 10px 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.botoom-btn .fa-box-archive,
+.fa-trash,
+.fa-square-check {
+  margin-right: 4px;
+}
