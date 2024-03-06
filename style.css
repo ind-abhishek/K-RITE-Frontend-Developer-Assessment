@@ -299,12 +299,16 @@ i {
   justify-content: space-between;
 }
 
+#searchInput {
+  border: none;
+}
+
 .Search-box {
   margin-top: 18px;
   display: flex;
 }
 .fa-search {
-  color: #787878;
+  color: var(--secondery);
 }
 
 .chat,
@@ -316,7 +320,7 @@ i {
   height: 21px;
   width: auto;
   padding-top: 10px;
-  color: #818181;
+  color: var(--secondery);
 }
 
 .chat {
@@ -358,7 +362,7 @@ i {
 
 .left-category button,
 .right-category button {
-  border: 2px solid #e8e8e8;
+  border: 2px solid var(--primerly);
   background: none;
   padding: 5px 10px 5px 10px;
   border-radius: 6px;
@@ -530,7 +534,7 @@ th {
 }
 
 .botoom-btn button {
-  border: 2px solid #e8e8e8;
+  border: 2px solid var(--primerly);
   background: none;
   padding: 6px 10px 6px 10px;
   border-radius: 6px;
@@ -549,7 +553,11 @@ th {
   .sideHad,
   .sideSubHad,
   .folder,
-  .side-content {
+  .side-content,
+  .tag,
+  .Member,
+  #tag-head,
+  .Head-tag {
     display: none;
   }
 
@@ -557,5 +565,12 @@ th {
     position: absolute;
     margin-left: 0;
     left: 8;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .disc-head,
+  .table-Desc {
+    display: none;
   }
 }
